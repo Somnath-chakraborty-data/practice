@@ -1,0 +1,44 @@
+\q              -- Quit psql
+\c dbname       -- Connect to database
+\conninfo       -- Show current connection info
+\password user  -- Change password for user
+\l              -- List databases
+\l+             -- List databases with size & owner
+\dt             -- List tables in current database
+\dt+            -- List tables with extra info
+\d tablename    -- Describe table structure
+\d+ tablename   -- Describe with more details
+\di             -- List indexes
+\dn             -- List schemas
+\du             -- List roles/users
+\du+            -- List with attributes
+\p              -- Show the current query buffer
+\r              -- Reset (clear) query buffer
+\g              -- Execute query in buffer
+\g filename     -- Save query output to file
+\s              -- Show command history
+\s filename     -- Save history to file
+\x              -- Toggle expanded display (row-wise)
+\pset format aligned    -- Set output format (aligned, unaligned, html, csv)
+\o filename     -- Redirect query output to file
+\qecho 'text'   -- Print text in output
+\?              -- List all psql commands
+\h              -- SQL syntax help (e.g., \h SELECT)
+\encoding           -- Show/set client encoding
+\dv                 -- List views
+\dm                 -- List materialized views
+\df                 -- List functions
+\df+                -- List functions with details
+\da                 -- List aggregates
+\do                 -- List operators
+\dT                 -- List data types
+\dD                 -- List domains
+\dE                 -- List foreign tables
+\dF                 -- List text search configurations
+\di                 -- List indexes
+\dS                 -- List sequences
+\dConfig            -- Show GUC variables (config)
+\ddp                -- Default privileges
+\watch N            -- Repeat last query every N seconds
+\! command          -- Run shell command
+\! ls               -- Example: run shell `ls`
