@@ -1,0 +1,57 @@
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --list               # Show current config
+git init                        # Create new repo in current folder
+git clone <url>                 # Clone existing repo
+git status                      # Check repo status
+git log                         # Commit history
+git log --oneline --graph --all # Pretty commit graph
+git show <commit>               # Show details of a commit
+git diff                        # See changes not staged
+git diff --staged               # See staged changes
+git add <file>                  # Stage file
+git add .                       # Stage all changes
+git commit -m "Message"         # Commit with message
+git commit -am "Message"        # Stage + commit tracked files
+git branch                      # List branches
+git branch <name>               # Create branch
+git switch <name>               # Switch branch (newer)
+git checkout <name>              # Switch branch (older)
+git checkout -b <name>           # Create + switch branch
+git branch -d <name>             # Delete branch
+git merge <branch>               # Merge branch into current
+git rebase <branch>              # Reapply commits on top of another branch
+git remote -v                   # Show remotes
+git remote add origin <url>     # Add remote
+git push -u origin main         # Push first time
+git push                        # Push changes
+git pull                        # Fetch + merge from remote
+git fetch                       # Get remote changes without merging
+git restore <file>              # Discard changes (newer)
+git checkout -- <file>          # Discard changes (older)
+git reset <file>                # Unstage file
+git reset --hard HEAD           # Reset everything to last commit
+git revert <commit>             # Undo a commit by making a new commit
+git stash save "msg"            # Stash with message
+git stash list                  # List stashes
+git stash apply "stash@{0}"     # Apply a stash
+git stash pop                   # Apply + remove latest stash
+git stash drop "stash@{0}"      # Delete a stash
+git stash clear                 # Remove all stashes
+git stash save "msg"            # Stash with message
+git stash list                  # List stashes
+git stash apply "stash@{0}"     # Apply a stash
+git stash pop                   # Apply + remove latest stash
+git stash drop "stash@{0}"      # Delete a stash
+git stash clear                 # Remove all stashes
+git tag                         # List tags
+git tag v1.0.0                  # Create tag
+git tag -a v1.0.0 -m "Release"  # Create annotated tag
+git push origin v1.0.0          # Push tag
+git push --tags                 # Push all tags
+git fetch origin                # Get remote updates
+git pull origin main            # Pull updates from main branch
+git push origin feature_1       # Push branch to remote
+git log --oneline --graph       # Compact log
+git reflog                      # History of all actions
+git cherry-pick <commit>        # Apply commit from another branch
