@@ -1,0 +1,38 @@
+{
+    "company": "Tech Solutions",
+    "employees": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "age": 28,
+            "department": "Engineering",
+            "skills": [
+                "Python",
+                "SQL",
+                "Azure"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bob Smith",
+            "age": 34,
+            "department": "Data Science",
+            "skills": [
+                "R",
+                "Machine Learning",
+                "Power BI"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Charlie Brown",
+            "age": 25,
+            "department": "Cloud",
+            "skills": [
+                "AWS",
+                "Docker",
+                "Kubernetes"
+            ]
+        }
+    ]
+}
