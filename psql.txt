@@ -73,8 +73,19 @@ FROM person;
 
 SELECT COALESCE(email, 'email not provided') AS email_display
 FROM person
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+WHERE email LIKE '%yahoo%';
+=======
+>>>>>>> 7a0feeb (Your commit message here)
 WHERE email LIKE '%yahoo%';
 
 DROP TABLE table name; (for delete the data but keep the table then we have to use "TRUNCATE")
 
+<<<<<<< HEAD
 -u postgres psql = to open psql in UBUNTU in WSL
+=======
+-u postgres psql = to open psql in UBUNTU in WSL
+>>>>>>> 0f880a5 (Initial commit)
+>>>>>>> 7a0feeb (Your commit message here)
