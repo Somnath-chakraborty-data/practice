@@ -1,3 +1,0 @@
-Files in bronze layer (1 total):
-
-employees.json
