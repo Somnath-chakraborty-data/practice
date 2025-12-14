@@ -1,0 +1,22 @@
+# Virtual Environment
+pyspark-kafka-env-venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
