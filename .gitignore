@@ -1,22 +1,161 @@
 # Virtual Environment
-pyspark-kafka-env-venv/
 venv/
 env/
-*.pyc
-__pycache__/
-
-# IDE
-.vscode/
-.idea/
+.venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Python
+*.py[cod]
+*.pyc
+__pycache__/
+*.so
+.Python
+
+# Distribution / packaging
 *.egg-info/
+*.egg
 dist/
 build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
 
-# Logs
-*.log
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# IPython
+.ipython/
+
+# pyenv
+.python-version
+
+# PySpark / Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE - VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - Other
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.sublime-workspace
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.out
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Large files / Downloads
+*.tar.gz
+*.zip
+*.whl
+*.jar
+
+# Media files (optional - uncomment if needed)
+# *.mp3
+# *.mp4
+# *.wav
+# *.avi
+
+# Model files (uncomment if you have large ML models)
+# *.h5
+# *.pth
+# *.ckpt
+# *.pkl
+# *.joblib
+# models/
+
+# Data files (uncomment if you have large datasets)
+# *.csv
+# *.parquet
+# *.json
+# data/
+
+# Output files
+output/
+outputs/
+results/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
