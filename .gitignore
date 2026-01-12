@@ -6,12 +6,8 @@ ENV/
 env.bak/
 venv.bak/
 
-# Python
-*.py[cod]
-*.pyc
 __pycache__/
 *.so
-.Python
 
 # Distribution / packaging
 *.egg-info/

@@ -1,11 +1,13 @@
-CREATE TABLE raw_sales (
-    order_id INT PRIMARY KEY,
-    product_name VARCHAR(50),
-    amount DECIMAL(10,2),
-    order_date DATE
+-- sql/postgres_init.sql
+CREATE SCHEMA IF NOT EXISTS raw;
+
+CREATE TABLE IF NOT EXISTS raw.sales_transactions (
+    id SERIAL PRIMARY KEY,
+    product_name VARCHAR(255),
+    price NUMERIC,
+    quantity INTEGER,
+    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO raw_sales VALUES 
-(1, 'Laptop', 1200.00, CURRENT_DATE),
-(2, 'Mouse', 25.00, CURRENT_DATE),
-(3, 'Monitor', 300.00, CURRENT_DATE);
+INSERT INTO raw.sales_transactions (product_name, price, quantity)
+VALUES ('MacBook Pro', 2000, 1), ('iPhone 15', 999, 2), ('AirPods', 199, 5);
